@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="uz">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>MathForStudent.uz — Dilnoza Jo'rayeva bilan matematika ta'lim platformasi</title>
+	<meta name="description"
+		content="MathForStudent.uz — Dilnoza Jo'rayeva (Algebra va geometriya kafedrasi dotsenti) tomonidan yuritiladigan matematika ta'lim platformasi. Ma'ruzalar, amaliy mashg'ulotlar, taqdimotlar va qo'llanmalar bir joyda.">
+	<meta name="theme-color" content="#eef0f2">
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="MathForStudent.uz — Matematika ta'lim platformasi">
+	<meta property="og:description" content="Ma'ruzalar, amaliy mashg'ulotlar, taqdimotlar va qo'llanmalar — bittа platformada.">
+	<meta property="og:image" content="hero-math-for-student.png">
+	<meta property="og:url" content="https://math-for-student.uz/">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="icon"
+		href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2304080d'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23a1e5e4' font-family='Arial' font-weight='700'%3E∑%3C/text%3E%3C/svg%3E">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<a class="skip-link" href="#main">Asosiy kontentga o'tish</a>
+
+	<header class="site-header">
+		<div class="nav-bar">
+			<a href="#top" class="brand">
+				<span class="logo">∑</span>
+				<span class="brand-text">
+					<span class="brand-name">Dilnoza Jo'rayeva</span>
+					<span class="brand-sub">MathForStudent.uz</span>
+				</span>
+			</a>
+
+			<nav class="main-nav" aria-label="Asosiy menyu" id="mainNav">
+				<ul>
+					<li><a href="#about">Haqqida</a></li>
+					<li><a href="#yonalishlar">Yo'nalishlar</a></li>
+					<li><a href="#materials">Materiallar</a></li>
+					<li><a href="#news">Yangiliklar</a></li>
+					<li><a href="#faq">Savol-javob</a></li>
+				</ul>
+			</nav>
+
+			<div class="nav-actions">
+				<a href="#contact" class="btn btn-dark btn-pill">Bog'lanish</a>
+				<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Menyuni ochish">
+					<span></span><span></span><span></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<main id="main">
+		<!-- Hero -->
+		<section class="hero" id="top">
+			<div class="container hero-center">
+				<div class="pill pill-aqua">
+					<span class="pill-dot"></span>
+					Matematika ta'lim platformasi
+				</div>
+				<h1 class="hero-display">Matematikani<br>tushunarli o'rganing</h1>
+				<p class="hero-lead">Termiz davlat universiteti Algebra va geometriya kafedrasi dotsenti
+					Dilnoza Jo'rayevaning 18 yillik tajribasiga asoslangan ma'ruzalar, amaliy mashg'ulotlar,
+					taqdimotlar va qo'llanmalar — barchasi bitta joyda, bepul va ro'yxatdan o'tmasdan.</p>
+				<div class="hero-actions">
+					<a href="#materials" class="btn btn-dark">📘 Materiallarni ko'rish</a>
+					<a href="#contact" class="btn btn-outline">✉️ Bog'lanish</a>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="media-frame">
+					<div class="media-track" id="mediaTrack">
+						<figure class="media-slide is-active">
+							<img src="hero-talim-platform.png" alt="Ta'lim texnologiyalari va raqamli platforma konsepsiyasi">
+						</figure>
+						<figure class="media-slide">
+							<img src="hero-math-for-student.png" alt="MathForStudent.uz — matematik formulalar va simvollar konsepsiyasi">
+						</figure>
+						<figure class="media-slide">
+							<img src="hero-education-tech.png" alt="Zamonaviy ta'lim va statistik tahlil konsepsiyasi">
+						</figure>
+					</div>
+					<button class="media-nav prev" id="mediaPrev" aria-label="Oldingi rasm">‹</button>
+					<button class="media-nav next" id="mediaNext" aria-label="Keyingi rasm">›</button>
+					<div class="media-dots" id="mediaDots"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- About / intro -->
+		<section id="about" class="section">
+			<div class="container hero-grid">
+				<div class="card-surface hero-card">
+					<img class="avatar" src="teacher-dilnoza-jorayeva.jpg" alt="Dilnoza Jo'rayeva — Algebra va geometriya kafedrasi dotsenti">
+					<div class="hero-info">
+						<h2>Dilnoza Jo'rayeva</h2>
+						<ul class="meta-list">
+							<li><strong>Lavozim:</strong> Algebra va geometriya kafedrasi dotsenti</li>
+							<li><strong>Tajriba:</strong> 18 yil</li>
+							<li><strong>Ta'lim muassasi:</strong> Termiz davlat universiteti</li>
+						</ul>
+					</div>
+				</div>
+				<div class="card-surface intro">
+					<h3>Platformaning maqsadi</h3>
+					<p>Ushbu platforma o'quvchilar, talabalar va o'qituvchilar uchun qulay tarzda shakllantirilgan.
+						Asosiy maqsad — matematikaga oid barcha kerakli ma'lumotlarni, yangiliklarni va dars
+						materiallarini bitta joyda, izchil va tushunarli tarzda taqdim etish.</p>
+					<ul class="features">
+						<li>🩵 Dars materiallari qulay shaklda</li>
+						<li>📱 Ta'limdagi yangiliklardan xabardor bo'lish</li>
+						<li>🔗 Mustaqil darslar uchun qo'llanmalar</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Stats -->
+		<section class="section stats-section" aria-label="Platforma statistikasi">
+			<div class="container stats-grid">
+				<div class="stat-item">
+					<span class="stat-number" id="totalMaterials">0</span>
+					<span class="stat-label">Jami materiallar</span>
+				</div>
+				<div class="stat-item">
+					<span class="stat-number" id="totalSections">0</span>
+					<span class="stat-label">Bo'limlar</span>
+				</div>
+				<div class="stat-item">
+					<span class="stat-number">18</span>
+					<span class="stat-label">Yillik tajriba</span>
+				</div>
+			</div>
+		</section>
+
+		<!-- Yo'nalishlar / browse by section -->
+		<section id="yonalishlar" class="section subtle-bg">
+			<div class="container">
+				<h3 class="section-title">Bo'limlar bo'yicha o'rganing</h3>
+				<p class="section-sub">Sizga kerakli formatni tanlang — bir bosishda tegishli materiallarga o'tasiz.</p>
+				<div class="subject-grid">
+					<article class="subject-card">
+						<div class="subject-icon">📖</div>
+						<h4>Ma'ruzalar</h4>
+						<p>Mavzularning nazariy asoslari va tushunchalari.</p>
+						<button class="link-btn" onclick="goToSection('lectures')">Ko'rish →</button>
+					</article>
+					<article class="subject-card">
+						<div class="subject-icon">✏️</div>
+						<h4>Amaliy mashg'ulotlar</h4>
+						<p>Masala va misollar yechish ko'nikmalarini oshirish uchun.</p>
+						<button class="link-btn" onclick="goToSection('practicals')">Ko'rish →</button>
+					</article>
+					<article class="subject-card">
+						<div class="subject-icon">📊</div>
+						<h4>Taqdimotlar</h4>
+						<p>Ko'rgazmali va qisqa tushuntirishlar bilan mavzuni mustahkamlash.</p>
+						<button class="link-btn" onclick="goToSection('presentations')">Ko'rish →</button>
+					</article>
+					<article class="subject-card">
+						<div class="subject-icon">📚</div>
+						<h4>Qo'llanma va kitoblar</h4>
+						<p>Mavzuni chuqurroq o'rganish uchun to'liq manbalar.</p>
+						<button class="link-btn" onclick="goToSection('books')">Ko'rish →</button>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Materials -->
+		<section id="materials" class="section">
+			<div class="container">
+				<h3 class="section-title">📚 Dars materiallari</h3>
+				<p class="section-sub">O'rganish uchun foydali materiallar. Fayllarni yuklab olish va ko'rish
+					mumkin.</p>
+				<div class="materials-controls">
+					<div class="materials-filter">
+						<select id="sectionFilter" onchange="filterMaterials()">
+							<option value="all">Barcha bo'limlar</option>
+							<option value="lectures">📖 Ma'ruzalar</option>
+							<option value="practicals">✏️ Amaliy mashg'ulotlar</option>
+							<option value="presentations">📊 Taqdimotlar</option>
+							<option value="books">📚 Qo'llanma va kitoblar</option>
+						</select>
+						<button class="btn btn-refresh" onclick="loadMaterials()">🔄 Yangilash</button>
+					</div>
+				</div>
+				<div id="cardsContainer" class="cards"></div>
+			</div>
+		</section>
+
+		<!-- Benefits -->
+		<section class="section">
+			<div class="container benefits-grid">
+				<div class="feature-card">
+					<h3>Nega aynan MathForStudent.uz?</h3>
+					<p>Bir tajribali o'qituvchi tomonidan tuzilgan, izchil va yangilanib boruvchi materiallar
+						bazasi — sizga keraksiz izlanishlarga vaqt sarflashning hojati yo'q.</p>
+				</div>
+				<ul class="benefit-list">
+					<li><span class="check">✓</span> 18 yillik pedagogik tajriba asosida tayyorlangan materiallar</li>
+					<li><span class="check">✓</span> Ro'yxatdan o'tmasdan, bepul yuklab olish</li>
+					<li><span class="check">✓</span> Ma'ruza, amaliyot, taqdimot va kitoblar — bitta joyda</li>
+					<li><span class="check">✓</span> Yangiliklar bo'limi orqali doimiy yangilanish</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Mission quote -->
+		<section class="section quote-section">
+			<div class="container">
+				<blockquote class="quote-block">
+					“Har bir o'quvchi matematikani qo'rqmasdan, tushunib o'rganishga haqli. Shu maqsadda
+					yillar davomida to'plagan materiallarimni ushbu platforma orqali barchaga ochiq qildim.”
+					<footer>— Dilnoza Jo'rayeva, Algebra va geometriya kafedrasi dotsenti</footer>
+				</blockquote>
+			</div>
+		</section>
+
+		<!-- News -->
+		<section id="news" class="section subtle-bg">
+			<div class="container">
+				<h3 class="section-title">🗞️ Yangiliklar</h3>
+				<div id="newsContainer" class="news-list">
+					<p>Yangiliklar yuklanmoqda...</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ -->
+		<section id="faq" class="section">
+			<div class="container">
+				<h3 class="section-title">Savol-javob</h3>
+				<div class="faq-list">
+					<details class="faq-item">
+						<summary>Materiallarni yuklab olish uchun ro'yxatdan o'tish kerakmi?</summary>
+						<p>Yo'q. Barcha materiallar "Materiallar" bo'limidan bevosita, ro'yxatdan o'tmasdan yuklab olinadi.</p>
+					</details>
+					<details class="faq-item">
+						<summary>Yangi materiallar qachon qo'shiladi?</summary>
+						<p>Yangi qo'shilgan materiallar haqida "Yangiliklar" bo'limida e'lon qilinadi. Vaqti-vaqti bilan sahifani yangilab turing.</p>
+					</details>
+					<details class="faq-item">
+						<summary>Qaysi mavzular bo'yicha materiallar mavjud?</summary>
+						<p>Algebra va geometriya fanlari bo'yicha ma'ruzalar, amaliy mashg'ulotlar, taqdimotlar hamda qo'llanma va kitoblar joylashtirilgan.</p>
+					</details>
+					<details class="faq-item">
+						<summary>Savol yoki taklifim bo'lsa, kimga murojaat qilaman?</summary>
+						<p>"Bog'lanish" bo'limidagi email, telefon yoki Telegram orqali bevosita murojaat qilishingiz mumkin.</p>
+					</details>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="section">
+			<div class="container contact-grid">
+				<aside class="card-surface contact-info">
+					<h4>📞 Bog'lanish</h4>
+					<p>Email: <a href="mailto:dilnozajuraeva@mail.ru">dilnozajuraeva@mail.ru</a></p>
+					<p>Tel: <a href="tel:+998973432035">+998 97 343 20 35</a></p>
+					<p>Telegram: <a href="https://t.me/noza2035" target="_blank" rel="noopener">@noza2035</a></p>
+				</aside>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-grid">
+			<div>
+				<span class="brand-name">Dilnoza Jo'rayeva</span>
+				<p class="footer-sub">Algebra va geometriya kafedrasi dotsenti — Termiz davlat universiteti</p>
+			</div>
+			<div>
+				<h5>Bo'limlar</h5>
+				<a href="#about">Haqqida</a>
+				<a href="#yonalishlar">Yo'nalishlar</a>
+				<a href="#materials">Materiallar</a>
+				<a href="#news">Yangiliklar</a>
+			</div>
+			<div>
+				<h5>Aloqa</h5>
+				<a href="mailto:dilnozajuraeva@mail.ru">dilnozajuraeva@mail.ru</a>
+				<a href="tel:+998973432035">+998 97 343 20 35</a>
+				<a href="https://t.me/noza2035" target="_blank" rel="noopener">Telegram</a>
+			</div>
+		</div>
+		<div class="container">
+			<p class="footer-copy">© <span id="year"></span> Radiata. Barcha huquqlar himoyalangan.</p>
+		</div>
+	</footer>
+
+	<script src="script-enhanced-fixed.js" defer></script>
+</body>
+
+</html>
